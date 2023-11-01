@@ -1,0 +1,79 @@
+{
+  "laws": [
+    {
+      "id": 1,
+      "name": "Do not profane G-d's Oneness in any way",
+      "body": "Acknowledge that there is a single G-d who cares about what we are doing and desires that we take care of His world.",
+      "image": "https://w2.chabad.org/media/images/1066/Jfgu10663278.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
+      "commitments": 6
+    },
+    {
+      "id": 2,
+      "name": "Do not curse your Creator",
+      "body": "No matter how angry you may be, do not take it out verbally against your Creator.",
+      "image": "https://w2.chabad.org/media/images/1066/qVmg10663288.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
+      "commitments": 6
+    },
+    {
+      "id": 3,
+      "name": "Do not murder",
+      "body": "The value of human life cannot be measured. To destroy a single human life is to destroy the entire world—because, for that person, the world has ceased to exist. It follows that by sustaining a single human life, you are sustaining an entire universe.",
+      "image": "https://w2.chabad.org/media/images/1066/mSMe10662623.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
+      "commitments": 6
+    },
+    {
+      "id": 4,
+      "name": "Do not eat a limb of a still-living animal",
+      "body": "Respect the life of all G-d's creatures. As intelligent beings, we have a duty not to cause undue pain to other creatures.",
+      "image": "https://vegnews.com/media/W1siZiIsIjQwMzA3L1ZlZ05ld3MuQ293c0Jlc3RGcmllbmRzLkdsb2JhbF9QaWNzOkdldHR5LmpwZyJdLFsicCIsImNyb3BfcmVzaXplZCIsIjE5MDB4OTk3KzArNzgiLCIxMjAweDYzMF4iLHsiZm9ybWF0IjoianBnIn1dLFsicCIsIm9wdGltaXplIl1d/VegNews.CowsBestFriends.Global_Pics%3AGetty.jpg?sha=65aadb9851963315",
+      "commitments": 4
+    },
+    {
+      "id": 5,
+      "name": "Do not steal",
+      "body": "Whatever benefits you receive in this world, make sure that none of them are at the unfair expense of someone else.",
+      "image": "https://w2.chabad.org/media/images/1066/LKtl10663292.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
+      "commitments": 0
+    },
+    {
+      "id": 6,
+      "name": "Live a Moral Family Life",
+      "body": "Incest, adultery, rape and homosexual relations are forbidden. The family unit is the foundation of human society. Sexuality is the fountain of life and so nothing is more holy than the sexual act. So, too, when abused, nothing can be more debasing and destructive to the human being.",
+      "image": "https://w2.chabad.org/media/images/1066/shxl10662668.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
+      "commitments": 1
+    },
+    {
+      "id": 7,
+      "name": "Establish courts of law and ensure justice in our world",
+      "body": "With every small act of justice, we are restoring harmony to our world, synchronizing it with a supernal order. That is why we must keep the laws established by our government for the country`s stability and harmony.",
+      "image": "https://w2.chabad.org/media/images/1066/eutl10663298.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
+      "commitments": 0
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "The Seven Laws of Noah",
+      "link": "https://www.chabad.org/library/article_cdo/aid/5559665/jewish/The-Seven-Laws-of-Noah.htm",
+      "description": "The list."
+    },
+    {
+      "id": 2,
+      "title": "The 7 Noahide Laws: Universal Morality",
+      "link": "https://www.chabad.org/library/article_cdo/aid/62221/jewish/The-7-Noahide-Laws-Universal-Morality.htm",
+      "description": "A basic overview."
+    },
+    {
+      "id": 3,
+      "title": "Seven Laws for a Beautiful Planet",
+      "link": "https://www.chabad.org/library/article_cdo/aid/4157474/jewish/Seven-Laws-for-a-Beautiful-Planet.htm",
+      "description": "An essay unveiling how there is much more to the laws than you may have previously thought."
+    },
+    {
+      "id": 4,
+      "title": "asknoah.org",
+      "link": "https://asknoah.org/",
+      "description": "A website replete with resources on the topic."
+    }
+  ]
+}

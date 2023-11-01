@@ -1,7 +1,54 @@
+import { useState, useEffect } from "react"
+import Item from "./Item"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function List() {
+
+    const [laws, setLaws] = useState([])
+
+    useEffect(()=>{
+        fetch("http://localhost:3001/laws")
+        .then(r => r.json())
+        .then(data => setLaws(data))
+    }, [])
+
+    function updateCommitments(id, commitments){
+
+        const updatedLaws = laws.map((law) => {
+            if (law.id === id) {
+                return ({...law, commitments: law.commitments+1})
+            } else {
+                return law
+            }
+        })
+
+        setLaws(updatedLaws)
+
+        fetch(`http://localhost:3001/laws/${id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                "commitments": commitments+1
+            })
+        })
+
+    }
+
     return (
         <>
-        <h1>List Page</h1>
+        <div className="needsMargin">
+            <h1>Laws</h1 >
+            <p>The List of Seven</p>
+        </div>
+        <Container className="needsMargin">
+            <Row>
+            {laws.map(law => <Item key={law.id} law={law} updateCommitments={updateCommitments}/>)}
+            </Row>
+        </Container>
         </>
     )
 }
