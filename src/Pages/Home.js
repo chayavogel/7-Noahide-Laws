@@ -17,7 +17,8 @@ function Home() {
             <p>Many, many, years ago, there was a great flood. One man and his children survived: Noah. Hence, every human being on this planet is a descendant of Noah - a Noahide.</p>
             <p>G-d gave us these seven laws so that this world would be a peaceful, kind and happy place to be.</p>
             <p>A place of humanity.</p>
-            <p>If we would fulfill these laws just because they make sense to us, then we would change them, according to our convenience. We would be our own god. But when we understand that they are the laws of a supreme G-d, we understand that they can not be changed, just as He does not change.</p>
+            <p>If we were to fulfill these laws just because they make sense to us, then we would change them, according to our convenience. We would be our own god.</p>
+            <p>But when we understand that they are the laws of a supreme G-d, we understand that they can not be changed, just as He does not change.</p>
             <p></p>
         </div>
         </>

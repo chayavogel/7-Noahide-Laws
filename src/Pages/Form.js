@@ -31,7 +31,7 @@ function SubmissionForm( { handleSubmit, handleChange } ) {
             id="link"
             name="link"
             onChange={handleChange}
-            placeholder="Enter link"
+            placeholder="Enter link (e.g., https://www.example.com)"
           />
         </Form.Group>
         <Button variant="primary" type="submit">
