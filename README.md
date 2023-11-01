@@ -7,11 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Visuals
 1:
 <img width="105" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/3fa7f5df-e729-47c6-9baa-027953c47cd4">
-This link, located within the body text of my homepage, navigates you to the second page in my application:
+Located within the body text of my homepage, this link navigates you to the second page in my application.
 
 2:
 <img width="84" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/035a099f-dd3e-430d-a320-65c4285c1813">
-This button is on each card in the page that renders a card for each of the Noahide Laws. Here you can view how many people have committed to take on each particular law. To commit to take on to keep on of the laws, you click here.
+Located on each card of Noahide Laws cards, this button shows you how many people have committed to take on each particular law. To commit to take on to keep on of the laws, you click here as well, and an alert will appear confirming your commitment.
 
 3:
 <img width="79" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/f722d0a0-abea-4459-bc9e-848c2dc482a1">
