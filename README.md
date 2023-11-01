@@ -1,6 +1,41 @@
-# Getting Started with Create React App
+# Phase 2 Project: Seven Noahide Laws Application
+
+This is an application for exploring the Seven Noahide laws. There are three pages: a homepage with some background information, a page with a list of the laws, and a page with further reading and resources. 
+The user is also able to submit their own link to a webpage/website as a supplementary resource for other viewers to benefit from.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Visuals
+1:
+<img width="245" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/07f397c5-7f98-45ff-92e5-4c12765ac58a">
+This is the navigation bar. The website title will also bring you to the homepage.
+
+2:
+<img width="105" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/3fa7f5df-e729-47c6-9baa-027953c47cd4">
+Located within the body text of my homepage, this link navigates you to the second page in my application.
+
+3:
+<img width="84" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/035a099f-dd3e-430d-a320-65c4285c1813">
+Located on each card of Noahide Laws cards, this button shows you how many people have committed to take on each particular law. To commit to take on to keep on of the laws, you click here as well, and an alert will appear confirming your commitment.
+
+4:
+<img width="79" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/f722d0a0-abea-4459-bc9e-848c2dc482a1">
+In the resources page of my application, this button will bring you to an external webpage. 
+
+## Support
+If you have any questions on how to use my application, feel free to contact me via linkedIn.
+www.linkedin.com/in/chaya-vogel
+
+## Contributing
+I am not open to contributions at this time, as this is a student project.
+
+## Authors and acknowledgment
+Much of the information on this application was taken from this webpage: 
+(https://www.chabad.org/library/article_cdo/aid/4157474/jewish/Seven-Laws-for-a-Beautiful-Planet.htm)
+
+## Blog
+Here is a blog I wrote on part of my process creating this application: 
+[https://chayavogel.hashnode.dev/ikea-and-the-console](https://chayavogel.hashnode.dev/ambitious-or-insane](https://chayavogel.hashnode.dev/ambitious-or-insane)
 
 ## Available Scripts
 
