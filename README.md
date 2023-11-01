@@ -1,6 +1,7 @@
 # Phase 2 Project: Seven Noahide Laws Application
 
-This is an application for exploring the Seven Noahide laws. There are three pages: a homepage with some background information, a page with a list of the laws, and a page with further reading and resources. The user is also able to submit their own link to a webpage/website as a supplementary resource for other viewers to benefit from.
+This is an application for exploring the Seven Noahide laws. There are three pages: a homepage with some background information, a page with a list of the laws, and a page with further reading and resources. 
+The user is also able to submit their own link to a webpage/website as a supplementary resource for other viewers to benefit from.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
