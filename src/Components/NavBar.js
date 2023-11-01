@@ -25,7 +25,7 @@ function NavBar() {
 
     <Navbar bg="dark" data-bs-theme="dark">
     <Container>
-      <Navbar.Brand href="/">The Noahide Laws</Navbar.Brand>
+      <Navbar.Brand href="/">The Seven Noahide Laws</Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/list">Laws</Nav.Link>

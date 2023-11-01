@@ -1,17 +1,12 @@
 import { useState, useEffect } from "react"
-import Resource from "./Resource"
+import Resource from "../Components/Resource"
 import ListGroup from 'react-bootstrap/ListGroup';
-import Video from "./Video"
-import SubmissionForm from "./Form"
+import Video from "../Components/Video"
+import SubmissionForm from "../Components/Form"
 
 function Resources() {
 
     const [resources, setResources] = useState([])
-    const [formData, setFormData] = useState({
-      title: "",
-      link: "",
-      description: ""
-    })
 
     useEffect(()=> {
       fetch("http://localhost:3001/resources")
@@ -19,27 +14,11 @@ function Resources() {
       .then(data => setResources(data))
     }, [])
 
-    function handleChange(e) {
-      setFormData({...formData, [e.target.name]: e.target.value})
-    }
-
-    function handleSubmit(e) {
-      e.preventDefault()
-      setResources([...resources, formData])
-      fetch("http://localhost:3001/resources", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(formData)
-      })
-    }
-
     return (
       <>
       <div className="needsMargin">
         <h1>Resources</h1>
-        <p>Want to know more? Check out these articles and the video below!</p>
+        <p>Want to know more?</p>
       </div>
 
       <div className="needsMargin">
@@ -56,7 +35,7 @@ function Resources() {
       <div className="needsMargin">
         <h3>Submit a Resource</h3>
         <p>Have an article to share? Post it here!</p>
-        <SubmissionForm handleSubmit={handleSubmit} handleChange={handleChange} />
+        <SubmissionForm resources={resources} setResources={setResources}/>
       </div>
 
       </>
