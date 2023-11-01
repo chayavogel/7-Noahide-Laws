@@ -5,7 +5,7 @@ This is an application for exploring the Seven Noahide laws. There are three pag
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Visuals
-This link navigates you to the second page in my application:
+This link, located within the body text of my homepage, navigates you to the second page in my application:
 <img width="105" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/3fa7f5df-e729-47c6-9baa-027953c47cd4">
 
 This button is on each card in the page that renders a card for each of the Noahide Laws. Here you can view how many people have committed to take on each particular law. To commit to take on to keep on of the laws, you click this button:
