@@ -5,7 +5,7 @@
       "name": "Do not profane G-d's Oneness in any way",
       "body": "Acknowledge that there is a single G-d who cares about what we are doing and desires that we take care of His world.",
       "image": "https://w2.chabad.org/media/images/1066/Jfgu10663278.jpg?_i=_n504BC99DD0473598AAE3BCDC5D75568D",
-      "commitments": 6
+      "commitments": 9
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "name": "Do not eat a limb of a still-living animal",
       "body": "Respect the life of all G-d's creatures. As intelligent beings, we have a duty not to cause undue pain to other creatures.",
       "image": "https://vegnews.com/media/W1siZiIsIjQwMzA3L1ZlZ05ld3MuQ293c0Jlc3RGcmllbmRzLkdsb2JhbF9QaWNzOkdldHR5LmpwZyJdLFsicCIsImNyb3BfcmVzaXplZCIsIjE5MDB4OTk3KzArNzgiLCIxMjAweDYzMF4iLHsiZm9ybWF0IjoianBnIn1dLFsicCIsIm9wdGltaXplIl1d/VegNews.CowsBestFriends.Global_Pics%3AGetty.jpg?sha=65aadb9851963315",
-      "commitments": 4
+      "commitments": 6
     },
     {
       "id": 5,
@@ -74,6 +74,12 @@
       "title": "asknoah.org",
       "link": "https://asknoah.org/",
       "description": "A website replete with resources on the topic."
+    },
+    {
+      "title": "title",
+      "link": "https://collive.com/",
+      "description": "description",
+      "id": 5
     }
   ]
 }

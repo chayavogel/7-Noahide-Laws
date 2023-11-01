@@ -42,7 +42,7 @@ function List() {
         <>
         <div className="needsMargin">
             <h1>Laws</h1 >
-            <p>The List of Seven</p>
+            <p>The Seven</p>
         </div>
         <Container className="needsMargin">
             <Row>

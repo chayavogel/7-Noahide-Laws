@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import Resource from "./Resource"
 import ListGroup from 'react-bootstrap/ListGroup';
+import Video from "./Video"
+import SubmissionForm from "./Form"
 
 function Resources() {
 
@@ -35,44 +37,27 @@ function Resources() {
 
     return (
       <>
+      <div className="needsMargin">
         <h1>Resources</h1>
         <p>Want to know more? Check out these articles and the video below!</p>
+      </div>
 
-        <div>
-          <h3>Understanding The Universal God & the 7 Noahide Laws</h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/yml4Jf6AJOs?si=V6WhtIxp53zVD-5e"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-          <p>
-            This captivating talk by Rabbi Mendel Kaplan, Spiritual Leader at Chabad Flamingo and Chaplain of the York Region Police Department to a group of non-Jewish High School students, offers a rudimentary yet fascinating introduction to God, religion, and religious laws that apply to every human being.
-          </p>
-        </div>
+      <div className="needsMargin">
+        <Video />
+      </div>
 
-        <div>
-          <ListGroup as="ol" numbered>
-            {resources.map(resource => <Resource key={resource.id} resource={resource} />)}
-            </ListGroup>
-        </div>
+      <div className="needsMargin">
+        <ListGroup as="ol" numbered>
+          <h3>External Links</h3>
+          {resources.map(resource => <Resource key={resource.id} resource={resource} />)}
+        </ListGroup>
+      </div>
 
-        <div>
-        <form onSubmit={handleSubmit}>
-          <h3>Submit a Resource</h3>
-          <p>Have an article to share? Post it here!</p>
-          <label htmlFor="title">Title:</label>
-          <input type="text" id="title" name="title" onChange={handleChange}/><br/>
-          <label htmlFor="title">Description:</label>
-          <input type="text" id="description" name="description" onChange={handleChange}/><br/>
-          <label htmlFor="link">Link:</label>
-          <input type="text" id="link" name="link" onChange={handleChange}/><br/>
-          <input type="submit" value="Submit"/>
-        </form>
-        </div>
+      <div className="needsMargin">
+        <h3>Submit a Resource</h3>
+        <p>Have an article to share? Post it here!</p>
+        <SubmissionForm handleSubmit={handleSubmit} handleChange={handleChange} />
+      </div>
 
       </>
     );
