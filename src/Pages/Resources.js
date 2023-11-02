@@ -37,7 +37,6 @@ function Resources() {
         <p>Have an article to share? Post it here!</p>
         <SubmissionForm resources={resources} setResources={setResources}/>
       </div>
-
       </>
     );
   }

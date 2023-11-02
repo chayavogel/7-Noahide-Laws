@@ -1,3 +1,28 @@
 .needsMargin {
-    margin: 40px
+    margin: 40px;
 }
+
+#image-text-container {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    padding: 2%;
+    background-color: #d4a45f9c;
+}
+
+#image-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center; /* Center the image and text horizontally */
+  }
+
+#home-page-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  }
+
+#text-container {
+    max-width: 75%; /* Add margin for spacing */
+    margin: auto;
+  }
