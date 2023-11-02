@@ -16,7 +16,7 @@ Located within the body text of my homepage, this link navigates you to the seco
 
 3:
 <img width="84" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/035a099f-dd3e-430d-a320-65c4285c1813">
-Located on each card of Noahide Laws cards, this button shows you how many people have committed to take on each particular law. To commit to take on to keep on of the laws, you click here as well, and an alert will appear confirming your commitment.
+Located on each card of the Noahide Laws cards, this button shows you how many people have committed to take on each particular law. To commit to take on to keep on of the laws, you click here as well, and an alert will appear confirming your commitment.
 
 4:
 <img width="79" alt="image" src="https://github.com/chayavogel/Project-Phase-2/assets/118293488/f722d0a0-abea-4459-bc9e-848c2dc482a1">
