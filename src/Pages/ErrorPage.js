@@ -6,7 +6,9 @@ function ErrorPage() {
 
   return (
     <main>
-        <h1>Oops! Something went wrong!</h1>
+      <div className="needsMargin">
+        <h1>Oops! This page does not exist!🤭</h1>
+      </div>
     </main>
   );
 };

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react"
 import Item from "../Components/Item"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 function List() {
 
@@ -16,26 +15,26 @@ function List() {
 
     function updateCommitments(id, commitments){
 
-        const updatedLaws = laws.map((law) => {
-            if (law.id === id) {
-                return ({...law, commitments: law.commitments+1})
-            } else {
-                return law
-            }
-        })
-
-        setLaws(updatedLaws)
-
         fetch(`http://localhost:3001/laws/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({
+          body: JSON.stringify({
                 "commitments": commitments+1
             })
         })
-
+        .then(r => r.json())
+        .then((data) => {
+            const updatedLaws = laws.map(law => {
+                if (law.id === id) {
+                    return data;
+                } else {
+                    return law;
+                }
+            });
+            setLaws(updatedLaws);
+        })
     }
 
     return (

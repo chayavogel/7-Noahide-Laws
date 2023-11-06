@@ -1,4 +1,6 @@
+//Parent Component
 import App from "./App";
+//Child Components - these are the pages
 import Home from "./Pages/Home";
 import List from "./Pages/List"
 import Resources from "./Pages/Resources"
@@ -12,15 +14,18 @@ const routes = [
         children: [
              {
                 path: "/",
-                element: <Home />
+                element: <Home />,
+                errorElement: <ErrorPage />
             },
             {
                 path: "/list",
-                element: <List />
+                element: <List />,
+                errorElement: <ErrorPage />
             },
             {
                 path: "/resources",
-                element: <Resources />
+                element: <Resources />,
+                errorElement: <ErrorPage />
             }
         ]
     }
